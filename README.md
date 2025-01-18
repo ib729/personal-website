@@ -2,7 +2,7 @@
 
 This website is a minimalist personal landing page that gets straight to the point. Just my name, my contact info, and my social links - nothing more, nothing less. I have plans on adding a blog and an "About Me" page in the future.
 
-## How/Where to view my Website?
+## How to view my Website?
 
 Go to [ivanbelousov.com](https://ivanbelousov.com) or clone the repo and open the index.html file.
 
