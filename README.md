@@ -14,7 +14,7 @@ Go to [ivanbelousov.com](https://ivanbelousov.com) or clone the repo and open th
 
 ## License
 
-This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License - see the LICENSE file for details.
+This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License - see the [LICENSE](https://github.com/ib729/ivanbelousov/blob/main/LICENSE) file for details.
 
 ## Contact
 
