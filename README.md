@@ -8,7 +8,7 @@ Go to [ivanbelousov.com](https://ivanbelousov.com) or clone the repo and open th
 
 ## Info
 
-- Website hosted with [Vercel](https://vercel.com/).
+- Website hosted with [Cloudflare Pages](https://pages.cloudflare.com/).
 - Domain managed by [Cloudflare](https://cloudflare.com).
 - Website built with HTML, CSS, and vanilla Javascript.
 
