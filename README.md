@@ -18,7 +18,7 @@ This project is licensed under the Creative Commons Attribution-NonCommercial-Sh
 
 ## Contact
 
-- Email: contact@ivanbelousov.com
+- Email: hello@ivanbelousov.com
 - Twitter: [@ib729_](https://x.com/ib729_)
 - LinkedIn: [ib729](https://www.linkedin.com/in/ib729/)
 - GitHub: [ib729](https://github.com/ib729)
