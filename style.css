@@ -7,6 +7,7 @@ body {
     align-items: center;
     font-family: Arial, sans-serif;
     background-color: white;
+    color: black;
 }
 
 .card-content {
@@ -18,62 +19,11 @@ h1 {
     padding: 0;
     font-size: 32px;
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
-.contact-info {
-    font-size: 14px;
+p {
+    font-size: 16px;
+    margin: 0;
     line-height: 1.5;
-    color: black;
 }
-
-a {
-    color: black;
-    text-decoration: none;
-    display: block;
-    margin-bottom: 5px;
-    font-size: 14px;
-    transition: all 0.2s ease-in-out;
-    padding: 4px 8px;
-    border-radius: 4px;
-}
-
-a:hover {
-    text-decoration: none;
-    transform: translateY(-2px) scale(1.02);
-    background-color: rgba(0, 0, 0, 0.05);
-    color: #1a1a1a;
-}
-
-a i {
-    transition: transform 0.2s ease-in-out;
-}
-
-a:hover i {
-    transform: scale(1.1);
-}
-
-.popup {
-    position: fixed;
-    bottom: 24px;
-    left: 50%;
-    transform: translateX(-50%) translateY(100px);
-    background: transparent;
-    color: black;
-    padding: 6px 12px;
-    border-radius: 8px;
-    font-size: 11px;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-    letter-spacing: 0.2px;
-    font-weight: 500;
-    font-family: Arial, sans-serif;
-}
-
-.popup.show {
-    opacity: 1;
-    visibility: visible;
-    transform: translateX(-50%) translateY(0);
-}
-
