@@ -1,15 +1,11 @@
 # Hi! 👋
-
-There's going to be an update soon.
+Update coming soon...
 
 ## License
-
-This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License - see the [LICENSE](https://github.com/ib729/ivanbelousov/blob/main/LICENSE) file for details.
+**Content**: All non-code content (e.g., text, images) on the website is licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).  
+**Code**: This repository's source code is licensed under the [MIT License](LICENSE).  
 
 ## Contact
+Feel free to reach out via hello@ivanbelousov.com
 
-- Email: hello@ivanbelousov.com
-- Twitter: [@ib729_](https://x.com/ib729_)
-- LinkedIn: [ib729](https://www.linkedin.com/in/ib729/)
-- GitHub: [ib729](https://github.com/ib729)
 
