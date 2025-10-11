@@ -6,49 +6,92 @@
         <meta name="description" content="Bitcoin donation address" />
         <title>Donate | Ivan Belousov</title>
         <style>
+            :root {
+                color-scheme: light;
+                font-family:
+                    "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+                font-weight: 400;
+                line-height: 1.6;
+            }
+            *,
+            *::before,
+            *::after {
+                box-sizing: border-box;
+            }
             body {
                 margin: 0;
                 min-height: 100vh;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                background: white;
-                color: black;
-                font-family: Arial, sans-serif;
-                font-weight: 600;
+                background: #ffffff;
+                color: #111827;
+                padding: clamp(1.5rem, 6vw, 2.5rem);
             }
             main {
-                padding: 3em 2em;
-                text-align: center;
+                width: 100%;
                 max-width: 520px;
+                text-align: center;
+                padding: clamp(2.25rem, 4vw, 3rem);
+                border-radius: 1.25rem;
+                background: #ffffff;
+                margin: 0 auto;
             }
             h1 {
-                margin-bottom: 0.5em;
-                font-size: 2.5em;
+                margin: 0 0 0.75rem;
+                font-size: clamp(2rem, 4vw, 2.5rem);
+                letter-spacing: -0.01em;
             }
             p {
-                margin: 0 auto 1.5em;
-                font-size: 1.1em;
-                line-height: 1.6;
+                margin: 0 auto 1.75rem;
+                font-size: 1.05rem;
+                max-width: 32ch;
+                color: #4b5563;
             }
             .address {
+                display: inline-flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 0.45rem;
+                padding: clamp(0.6rem, 2.2vw, 0.95rem)
+                    clamp(0.4rem, 1.6vw, 1.1rem);
+                border: 1px solid #d5dae1;
+                border-radius: 0.85rem;
+                background: #f7f9fc;
+                font-family:
+                    "SFMono-Regular", "Menlo", "Consolas", "Liberation Mono",
+                    monospace;
+                font-size: clamp(0.36rem, 0.32rem + 0.28vw, 1.05rem);
+                letter-spacing: 0.01em;
+                color: #1f2933;
+                text-align: center;
+                margin-inline: auto;
+                width: fit-content;
+                max-width: 100%;
+            }
+            .address-label {
+                display: block;
+                font-size: 0.75rem;
+                letter-spacing: 0.12em;
+                text-transform: uppercase;
+                color: #6b7280;
+            }
+            .address-value {
                 display: inline-block;
-                padding: 1em 1.5em;
-                border: 1px solid #d0d0d0;
-                border-radius: 0.75em;
-                font-family: "Courier New", Courier, monospace;
-                font-size: 1.1em;
-                letter-spacing: 0.02em;
-                word-break: break-all;
-                background: #f8f8f8;
+                white-space: nowrap;
+                letter-spacing: 0.01em;
             }
         </style>
     </head>
     <body>
         <main>
-            <h1>Thank You!</h1>
-            <p>If you would like to support me, you can send Bitcoin to the address below.</p>
-            <div class="address">bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh</div>
+            <div class="address">
+                <span class="address-label">Bitcoin Address</span>
+                <span class="address-value"
+                    >bc1pyv54eqxuanqgv3cm2yjl37xjxlavnh7fcfu9d3yg983uzp4qazcs5xgsz2</span
+                >
+            </div>
         </main>
     </body>
 </html>
